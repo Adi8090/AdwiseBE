@@ -3,7 +3,7 @@ pipeline{
    stages{
     stage('Git Checkout'){
      steps{
-            git 'https://github.com/atulrockzz/AdwiseBE.git'
+            git 'https://github.com/Adi8090/AdwiseBE'
          }               
      }
     stage('java build'){
